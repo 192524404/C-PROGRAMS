@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath> 
+int main() {
+    int n = 59, s;
+    s = std::sqrt(n);
+    if (s * s == n) {
+        std::cout << "Perfect Square" << std::endl;
+    } else {
+        std::cout << "Not Perfect Square" << std::endl;
+    }
+    return 0;
+}
