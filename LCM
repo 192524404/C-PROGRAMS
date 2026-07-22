@@ -1,0 +1,9 @@
+#include <iostream>
+#include <numeric> 
+int main() {
+    int a = 12;
+    int b = 18;
+    int ans = std::lcm(a, b);
+    std::cout << "LCM=" << ans << std::endl;
+    return 0;
+}
